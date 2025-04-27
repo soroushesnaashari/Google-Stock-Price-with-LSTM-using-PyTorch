@@ -1,11 +1,13 @@
-# Google-Stock-Price-with-LSTM-using-PyTorch
+## Google-Stock-Price-with-LSTM-using-PyTorch
 
 
-## Overview
+### Overview
 
 This project demonstrates how to build, train, and evaluate LSTM-based neural networks in PyTorch to predict Google’s daily closing stock price. Using historical data from 2018 to 2025, we explore three different LSTM architectures—ranging from a simple single‐layer model to a more complex multi‐layer, dropout‐regularized network—and compare their performance. Finally, we generate a 10‐day forecast beyond the available dataset to illustrate the model’s ability to anticipate near‐term price movements.
 
-## Project Flow
+<br>
+
+### Project Flow
 
 1. **Data Loading & Cleaning**  
    - Read historical Google stock prices (`.csv` with Date, Open, High, Low, Close, Volume).  
@@ -40,7 +42,9 @@ This project demonstrates how to build, train, and evaluate LSTM-based neural ne
    - Using the best‐performing model, iteratively forecast the next 10 days beyond the available data.  
    - Plot and tabulate these forecasted prices.
 
-## Key Features
+<br>
+
+### Key Features
 
 - **Flexible LSTM Architectures**  
   Easily swap between single‐layer and multi‐layer LSTMs, adjust hidden sizes and dropout rates to control model capacity and overfitting.
@@ -60,7 +64,9 @@ This project demonstrates how to build, train, and evaluate LSTM-based neural ne
 - **Future Price Forecasting**  
   Demonstrates how to extend the model beyond test data for practical forecasting applications.
 
-## Results
+<br>
+
+### Results
 
 - **Training Loss:**  
   All three models converge, with the more complex architectures achieving lower MSE on the training set.
@@ -73,4 +79,18 @@ This project demonstrates how to build, train, and evaluate LSTM-based neural ne
 - **10-Day Forecast:**  
   The chosen best model projects the next 10 days of closing prices, revealing a moderate upward/downward trend (see “Forecast” plot and table in the notebook for exact values).
 
-*(For detailed loss curves, numeric metrics, and interactive plots, please refer to the Jupyter notebook: `google-stock-price-lstm-using-pytorch.ipynb`.)*  
+<br>
+
+### Repository Contents
+- **`google-stock-price-lstm-using-tensorflow.ipynb`**: Jupyter Notebook with full code, visualizations and explanations.
+- **`Data`:** Contains the [Original Dataset](https://www.kaggle.com/datasets/soroushesnaashari/google-stock-price-2018-2025) and you can see the cleaned dataset in notebook.
+- **`README.md`:** Project documentation.
+
+<br>
+
+### How to Contribute
+Contributions are welcome! If you'd like to improve the project or add new features:
+
+1. **Fork the repository.**
+2. **Create a new branch.**
+3. **Make your changes and submit a pull request.**
