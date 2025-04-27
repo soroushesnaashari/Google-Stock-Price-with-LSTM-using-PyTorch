@@ -1,5 +1,5 @@
-## Google-Stock-Price-with-LSTM-using-PyTorch
-
+## Google Stock Price Forecasting using PyTorch
+[![](Image.jpg)](https://unsplash.com/photos/google-sign-fpZZEV0uQwA)
 
 ### Overview
 
